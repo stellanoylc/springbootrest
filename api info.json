@@ -1,0 +1,31 @@
+
+http://localhost:8080/api/employees
+<!--1. lit all & create ,create post-->
+{    
+    "firstName": "ALI",
+    "lastName": "Muthu",
+    "email":"a@gmail.com"       
+}
+
+http://localhost:8080/api/employees
+<!--2. update put-->
+{    "id":2,
+    "firstName": "ALI",
+    "lastName": "Muthu",
+    "email":"a@gmail.com"       
+}
+
+<!--3. delete, http://localhost:8080/api/employees/2 -->
+<!--4. get, http://localhost:8080/api/employees/2 -->
+
+
+
+
+<!--5. PAGING-->
+http://localhost:8080/api/allemployees?page=0&size=5
+
+<!--6. 3rd part api call-->
+http://localhost:8080/api/third-party-data
+
+
+
